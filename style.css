@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 30px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.nav-btn {
+  width: 164px;
+  height: 52px;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(270deg, #faa245 0%, #d8328a 37.25%, #753872 100%);
+  border: none;
+}
+main {
+  min-width: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1 {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 78px;
+  height: 143.04725646972656px;
+  width: 520.5662231445312px;
+  left: 120px;
+  top: 277.8514404296875px;
+  border-radius: nullpx;
+}
+p {
+  height: 108px;
+  width: 486.99456787109375px;
+  left: 120px;
+  top: 440.898681640625px;
+  line-height: 36px;
+}
+.btn {
+  height: 52px;
+  width: 226px;
+  left: 120px;
+  top: 585.830078125px;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+  background: rgb(250, 162, 69);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 162, 69, 1) 0%,
+    rgba(216, 50, 141, 1) 13%,
+    rgba(117, 56, 114, 1) 100%
+  );
+  color: #fff;
+  font-size: 16px;
+}
+.main-img-container {
+  margin-top: 60px;
+}
+footer {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+i {
+  padding: 20px;
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+}
+@media only screen and (max-width: 768px) {
+  .img-1 {
+    width: 400px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .img-1 {
+    width: 200px;
+  }
+  main {
+    width: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    width: 200px;
+    font-size: 26px;
+    line-height: 25px;
+  }
+  p {
+    width: 200px;
+    line-height: 18px;
+    margin: 10px 10px;
+  }
+}
